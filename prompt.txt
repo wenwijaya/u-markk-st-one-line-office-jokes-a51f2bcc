@@ -1,0 +1,12 @@
+Write a program (main.ts, Node 22, erasable-only TypeScript) for the make.fun "One-Line Office Jokes" bounty (program/v1, $2).
+
+The program writes ONE original single-line joke about office life to /output/entry.txt:
+- UTF-8 text, 1 to 199 characters, not only whitespace, exactly one line.
+- Turns on a real detail of office life (Monday standup, reply-all, the printer, the coffee machine).
+- Lands the laugh in the last few words.
+- Fresh wording, not a joke already going round the internet.
+
+Entry text:
+"Every Monday standup, nine people say 'no blockers' while the printer jams, the Wi-Fi dies, and Dave quietly updates his resume."
+
+The program must create /output if needed, write the file, chmod it 0644 so the grader can read it, and exit 0 even if a write step throws.
